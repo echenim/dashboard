@@ -1,0 +1,11 @@
+{application,segmented_cache,
+             [{description,"A segmented cache implementation"},
+              {vsn,"0.3.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib,telemetry]},
+              {env,[]},
+              {doc,"doc"},
+              {modules,[segmented_cache,segmented_cache_callbacks,
+                        segmented_cache_helpers,segmented_cache_server]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/esl/segmented_cache/"}]}]}.

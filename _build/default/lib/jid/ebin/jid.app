@@ -1,0 +1,12 @@
+{application,jid,
+             [{description,"MongooseIM's XMPP jid modules"},
+              {vsn,"2.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib,stringprep]},
+              {env,[]},
+              {modules,[jid]},
+              {maintainers,["ESL"]},
+              {pkg_name,"mongoose_jid"},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/esl/mongoose_jid/"}]},
+              {exclude_files,["c_src/mongoose_jid.d"]}]}.

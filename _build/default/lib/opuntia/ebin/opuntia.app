@@ -1,0 +1,10 @@
+{application,opuntia,
+             [{description,"Traffic shapers for erlang and elixir"},
+              {vsn,"1.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib,telemetry]},
+              {env,[]},
+              {doc,"doc"},
+              {modules,[opuntia,opuntia_srv]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/esl/opuntia/"}]}]}.

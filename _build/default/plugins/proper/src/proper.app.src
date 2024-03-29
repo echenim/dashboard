@@ -1,0 +1,12 @@
+{application,proper,
+             [{description,"A QuickCheck-inspired property-based testing tool for Erlang"},
+              {vsn,"1.1.1-beta"},
+              {registered,[]},
+              {applications,[compiler,kernel,stdlib]},
+              {env,[]},
+              {files,["src","include","README.md","rebar.config","rebar.lock",
+                      "Makefile","write_compile_flags"]},
+              {maintainers,["Manolis Papadakis","Eirini Arvaniti",
+                            "Kostis Sagonas"]},
+              {licenses,["GPL"]},
+              {links,[{"Github","https://github.com/manopapad/proper"}]}]}.

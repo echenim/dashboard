@@ -1,0 +1,12 @@
+{application,exml,
+             [{description,"Erlang fast XML parsing library"},
+              {vsn,"3.4.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[exml,exml_nif,exml_query,exml_stream]},
+              {maintainers,["ESL"]},
+              {pkg_name,"hexml"},
+              {licenses,["Apache-2.0","BSL-1.0","GPL (tests)"]},
+              {links,[{"GitHub","https://github.com/esl/exml/"}]},
+              {exclude_files,["c_src/exml.d"]}]}.

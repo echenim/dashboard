@@ -1,0 +1,11 @@
+{application,eodbc,
+             [{description,"Erlang ODBC application"},
+              {vsn,"0.2.0"},
+              {modules,[eodbc,eodbc_app,eodbc_sup]},
+              {registered,[eodbc_sup]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/arcusfelis/eodbc"}]},
+              {exclude_paths,["priv/eodbcserver"]},
+              {mod,{eodbc_app,[]}}]}.

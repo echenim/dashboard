@@ -1,0 +1,12 @@
+{application,syslogger,
+             [{description,"A syslog backend for Erlang logger"},
+              {vsn,"0.3.0"},
+              {registered,[]},
+              {mod,{syslogger_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[{handlers,[{syslogger,#{}}]}]},
+              {modules,[syslogger,syslogger_app,syslogger_sup]},
+              {maintainers,["ESL"]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub",
+                       "https://github.com/NelsonVides/syslogger/"}]}]}.

@@ -1,0 +1,13 @@
+{application,re2,
+             [{description,"Erlang NIF bindings for RE2 regex library"},
+              {vsn,"1.9.7"},
+              {modules,[re2]},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {licenses,["BSD"]},
+              {links,[{"GitHub","https://github.com/dukesoferl/re2"},
+                      {"RE2 library Google Source",
+                       "https://code.googlesource.com/re2"},
+                      {"RE2 library GitHub","https://github.com/google/re2"}]},
+              {exclude_files,["c_src/re2","c_src/re2_nif.d"]}]}.

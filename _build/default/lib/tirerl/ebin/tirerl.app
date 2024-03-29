@@ -1,0 +1,10 @@
+{application,tirerl,
+             [{description,"Erlang interface to Elastic Search"},
+              {vsn,"1.2.0"},
+              {applications,[kernel,stdlib,jsx,hackney,worker_pool]},
+              {modules,[tirerl,tirerl_sup,tirerl_worker]},
+              {registered,[]},
+              {mod,{tirerl,[]}},
+              {licenses,["Apache 2.0"]},
+              {links,[{"Github","https://github.com/inaka/tirerl"}]},
+              {build_tools,["erlang.mk","rebar"]}]}.

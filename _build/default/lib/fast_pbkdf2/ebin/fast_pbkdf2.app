@@ -1,0 +1,10 @@
+{application,fast_pbkdf2,
+             [{description,"Erlang's best pbkdf2 implementation"},
+              {vsn,"1.0.3"},
+              {registered,[]},
+              {applications,[kernel,stdlib,crypto]},
+              {env,[]},
+              {modules,[fast_pbkdf2]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/esl/fast_pbkdf2/"}]},
+              {exclude_files,["c_src/fast_pbkdf2.d"]}]}.

@@ -1,0 +1,10 @@
+{application,bear,
+             [{description,"A set of statistics functions for erlang"},
+              {vsn,"1.0.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[bear]},
+              {maintainers,["Joe Williams"]},
+              {licenses,["Apache 2"]},
+              {links,[{"Github","https://github.com/folsom-project/bear"}]}]}.

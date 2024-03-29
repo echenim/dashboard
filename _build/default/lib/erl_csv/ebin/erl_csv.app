@@ -1,0 +1,10 @@
+{application,erl_csv,
+             [{description,"A simple library for dealing with CSV files"},
+              {vsn,"0.3.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[erl_csv,erl_csv_decoder,erl_csv_encoder,
+                        erl_csv_file_stream]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"GitHub","https://github.com/NelsonVides/erl_csv"}]}]}.

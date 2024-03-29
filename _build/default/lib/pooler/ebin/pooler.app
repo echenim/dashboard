@@ -1,0 +1,13 @@
+{application,pooler,
+             [{description,"An OTP Process Pool Application"},
+              {licenses,["Apache 2.0"]},
+              {maintainers,["Seth Falcon","Drew Kerrigan","Randy Secrist"]},
+              {links,[{"Github","https://github.com/seth/pooler"}]},
+              {vsn,"1.5.3"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{pooler_app,[]}},
+              {env,[]},
+              {modules,[pooler,pooler_app,pooler_config,pooler_pool_sup,
+                        pooler_pooled_worker_sup,pooler_starter,
+                        pooler_starter_sup,pooler_sup]}]}.

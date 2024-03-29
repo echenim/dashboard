@@ -1,0 +1,12 @@
+{application,cpool,
+             [{description,"A connection-focused worker pool."},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{cpool_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[cpool,cpool_app,cpool_pool_connection_sup,
+                        cpool_pool_manager,cpool_pool_sup,cpool_sup]},
+              {maintainers,["Konrad Zemek <konrad.zemek@gmail.com>"]},
+              {licenses,["MPL 2.0"]},
+              {links,[{"Github","https://github.com/kzemek/cpool"}]}]}.

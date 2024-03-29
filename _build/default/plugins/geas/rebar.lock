@@ -1,0 +1,8 @@
+{"1.2.0",
+[{<<"samovar">>,{pkg,<<"samovar">>,<<"1.0.2">>},0}]}.
+[
+{pkg_hash,[
+ {<<"samovar">>, <<"3A077EB5D719799717E32405CD232B31BDF47A99C07AC4DA92A9B6189B7EFE25">>}]},
+{pkg_hash_ext,[
+ {<<"samovar">>, <<"C4E7ED752EDDCD503F1CCF80E192BA613CA8A9FCE7770E95BE1F6FF6D72EDCD9">>}]}
+].

@@ -1,0 +1,10 @@
+{application,dashboard,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{dashboard_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[dashboard_app,dashboard_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.

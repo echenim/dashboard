@@ -1,0 +1,6 @@
+[
+{ "file"      : "c_src/re2_nif.cc"
+, "directory" : "/Users/arweh002/DevCentre/ErlangDev/dashboard/_build/default/lib/re2"
+, "command"   : "c++ -c -g -Wall -fPIC -MMD -I\"/usr/local/Cellar/erlang/26.2.2/lib/erlang/lib/erl_interface-5.5.1/include\" -I\"/usr/local/Cellar/erlang/26.2.2/lib/erlang/erts-14.2.2/include\" -std=c++11 -Wall -Wextra -Wpedantic -O3 -Ic_src/re2 c_src/re2_nif.cc -o c_src/re2_nif.o"
+}
+]

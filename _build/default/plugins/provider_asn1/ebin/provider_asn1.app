@@ -1,0 +1,12 @@
+{application,provider_asn1,
+             [{description,"Compile ASN.1 with Rebar3"},
+              {vsn,"0.3.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib,providers]},
+              {env,[]},
+              {modules,[provider_asn1,provider_asn1_clean,
+                        provider_asn1_compile,provider_asn1_util]},
+              {maintainers,["knusbaum <KyleJNusbaum@gmail.com>"]},
+              {licenses,["MIT/Expat"]},
+              {links,[{"GitHub",
+                       "https://github.com/knusbaum/provider_asn1"}]}]}.
